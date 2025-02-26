@@ -268,5 +268,5 @@ class MyApp(Gtk.Application):
             self.win = MainWindow(application=self)
             self.win.present()
 
-app = MyApp(application_id="com.github.yucefsourani.myapplicationexample",flags= Gio.ApplicationFlags.FLAGS_NONE)
+app = MyApp(application_id="com.github.mutaday.haumea",flags= Gio.ApplicationFlags.FLAGS_NONE)
 app.run(sys.argv)
